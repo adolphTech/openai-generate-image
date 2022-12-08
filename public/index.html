@@ -11,7 +11,9 @@
     <title> openAI Image Generator </title>
   </head>
   <body>
-    <header>
+
+
+    <header class="container ">
       <div class="navbar">
         <div class="logo">
           <h2> Why-ideas</h2>
@@ -28,9 +30,9 @@
       </div>
     </header>
 
-    <main>
-      <section class="showcase">
-        <form id="image-form" >
+    <main class="container">
+      <section class="showcase row">
+        <form id="image-form " class="col-sm-12" >
           <h1>Describe An Image</h1>
           <div class="form-control">
             <input type="text" id="prompt" placeholder="Enter Text" />
@@ -47,8 +49,8 @@
         </form>
       </section>
 
-      <section class="image">
-        <div class="image-container">
+      <section class="image row">
+        <div class="image-container col-sm-8">
           <h2 class="msg"></h2>
           <img src="" alt="" id="image" />
         </div>
